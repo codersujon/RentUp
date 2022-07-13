@@ -4,8 +4,8 @@ $poppins: 'Poppins', sans-serif;
 
 /* COLORS*/
 $white: #fff;
-$black: #333;
-$primaryColor: #be9c79;
+$black: #000;
+$primaryColor: #27ae60;
 $lightColor: #666;
 
 
@@ -14,4 +14,4 @@ $border: .2rem solid $black;
 
 
 /* BOX-SHADOW */
-$boxShadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+$boxShadow: 0 5px 30px rgb(0 24 84/  10%);
