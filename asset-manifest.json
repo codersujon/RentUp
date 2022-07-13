@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RentUp/static/css/main.c84791f0.css",
+    "main.js": "/RentUp/static/js/main.7d1e0b2a.js",
+    "static/js/787.de9e4a85.chunk.js": "/RentUp/static/js/787.de9e4a85.chunk.js",
+    "index.html": "/RentUp/index.html",
+    "main.c84791f0.css.map": "/RentUp/static/css/main.c84791f0.css.map",
+    "main.7d1e0b2a.js.map": "/RentUp/static/js/main.7d1e0b2a.js.map",
+    "787.de9e4a85.chunk.js.map": "/RentUp/static/js/787.de9e4a85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c84791f0.css",
+    "static/js/main.7d1e0b2a.js"
+  ]
+}
