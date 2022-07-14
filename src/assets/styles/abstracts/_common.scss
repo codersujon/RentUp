@@ -47,3 +47,10 @@ button {
         margin-right: 5px;
     }
 }
+
+textarea,
+input {
+    border: none;
+    outline: none;
+    background-color: none;
+}
