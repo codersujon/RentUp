@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Nav from '../../data/Nav.json';
+import Logo from './Logo/Logo';
 
 const Header = () => {
 
@@ -15,11 +16,7 @@ const Header = () => {
     <>
         <header>
             <div className="container flex">
-                <div className="logo">
-                    <a href="/">
-                         <img src="/assets/images/logo.png" alt="logo" />
-                    </a>
-                </div>
+                <Logo />
                 <nav className="nav">
                     <ul className={navList ? "small" : "flex"}>
                         {Nav.map((list, index) =>(
