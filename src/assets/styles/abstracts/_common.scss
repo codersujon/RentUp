@@ -13,6 +13,24 @@ body {
 
 }
 
+p {
+    color: $bodyText;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+    text-transform: capitalize;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
 .container {
     max-width: 80%;
     margin: auto;
@@ -24,15 +42,6 @@ body {
     align-items: center;
 }
 
-a {
-    text-decoration: none;
-    color: $black;
-    text-transform: capitalize;
-}
-
-ul {
-    list-style-type: none;
-}
 
 button {
     border-radius: 5px;
@@ -46,4 +55,17 @@ button {
     & i {
         margin-right: 5px;
     }
+}
+
+textarea,
+input {
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+section {
+    padding: 80px 0;
+    position: relative;
+    text-align: center;
 }
