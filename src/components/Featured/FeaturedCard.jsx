@@ -1,23 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-<<<<<<< HEAD
-const FeaturedCard = ({img, title, total}) => {
-  
-  return (
-    <>
-      <div className="content grid5">
-        <div className="box">
-          <img src={img} alt="Featured__Image" />
-          <h4>{title}</h4>
-          <label>{total}</label>
-        </div>
-      </div>
-    </>
-  )
-}
-
-export default FeaturedCard
-=======
 const FeaturedCard = ({ cover, title, label }) => {
     return (
         <>
@@ -31,4 +13,4 @@ const FeaturedCard = ({ cover, title, label }) => {
 }
 
 export default FeaturedCard;
->>>>>>> alt-history
+
