@@ -1,21 +1,31 @@
 import React from 'react'
-import FeaturedCard from './FeaturedCard';
 import SectionTitle from './../SectionTitle/SectionTitle';
+import FeaturedCard from './FeaturedCard';
+import FeaturedInfo from '../../data/FeaturedInfo.json'
+
 
 const Featured = () => {
   return (
     <>
-      <section className="featured background">
+      <section className="featured">
          <div className="container">
             <SectionTitle
               title="Featured Property Types"
               subtitle="Find All Type of Property."
             /> 
-            <FeaturedCard />
+            
+            {FeaturedInfo.map((items) =>(
+                  <FeaturedCard 
+                    key={items.id}
+                    img={items.image}
+                    title={items.title}
+                    total={items.total}
+                  />
+              ))}
          </div>
       </section>
     </>
   )
 }
 
-export default Featured
+export default Featured 

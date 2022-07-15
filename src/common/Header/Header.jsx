@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Nav from '../../data/Nav.json';
+import Logo from "../../assets/images/logo.png";
 
 const Header = () => {
 
@@ -16,7 +17,7 @@ const Header = () => {
         <header>
             <div className="container flex">
                 <div className="logo">
-                    <img src="/assets/images/logo.png" alt="logo" />
+                    <img src={Logo} alt="Logo" />
                 </div>
                 <nav className="nav">
                     <ul className={navList ? "small" : "flex"}>
