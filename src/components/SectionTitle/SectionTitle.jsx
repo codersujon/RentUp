@@ -1,10 +1,10 @@
 import React from 'react'
 
-const SectionTitle = () => {
+const SectionTitle = ({title, subtitle}) => {
   return (
     <div className="SectionTitle">
-        <h2>Featured Property Types</h2>
-        <p>Find All Type of Property.</p>
+        <h2>{title}</h2>
+        <p>{subtitle}</p>
     </div>
   )
 }
