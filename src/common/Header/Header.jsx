@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Nav from '../../data/Nav.json';
+<<<<<<< HEAD
 import Logo from "../../assets/images/logo.png";
+=======
+import Logo from './Logo/Logo';
+>>>>>>> alt-history
 
 const Header = () => {
 
@@ -16,9 +20,13 @@ const Header = () => {
     <>
         <header>
             <div className="container flex">
+<<<<<<< HEAD
                 <div className="logo">
                     <img src={Logo} alt="Logo" />
                 </div>
+=======
+                <Logo />
+>>>>>>> alt-history
                 <nav className="nav">
                     <ul className={navList ? "small" : "flex"}>
                         {Nav.map((list, index) =>(

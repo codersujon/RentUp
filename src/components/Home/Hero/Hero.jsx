@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import Heading from '../../../common/Header/Heading';
 
 
@@ -12,6 +13,20 @@ const Hero = () => {
                     title="Search Your Next Home"
                     subtitle="Find new & featured property located in your local city."
                 />
+=======
+
+
+const Hero = () => {
+  return (
+    <>
+      <section className="hero">
+            <div className="container">
+
+                <div className="hero__heading">
+                  <h1>Search Your Next Home</h1>
+                  <p>Find new & featured property located in your local city.</p>
+                </div>
+>>>>>>> alt-history
 
                 <form className="flex">
                     <div className="hero__box">
@@ -35,8 +50,16 @@ const Hero = () => {
                 </form>
             </div>
         </section>
+<<<<<<< HEAD
         </>
     )
 }
 
 export default Hero;
+=======
+    </>
+  )
+}
+
+export default Hero
+>>>>>>> alt-history

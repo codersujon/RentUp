@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from './Hero/Hero';
+<<<<<<< HEAD
 import Featured from '../Featured/Featured';
 
 const Home = () => {
@@ -13,3 +14,17 @@ const Home = () => {
 
 export default Home;
 
+=======
+import Featured from './../Featured/Featured';
+
+const Home = () => {
+  return (
+    <>
+       <Hero />
+       <Featured />
+    </>
+  )
+}
+
+export default Home
+>>>>>>> alt-history
