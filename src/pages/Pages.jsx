@@ -1,16 +1,13 @@
 import React from 'react'
 import Header from '../common/Header/Header'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from '../components/Home/Home';
-
+import { BrowserRouter as Router } from "react-router-dom";
+import MainRoutes from '../routes/MainRoutes';
 const pages = () => {
   return (
     <>
       <Router>
         <Header />
-        <Routes>
-            <Route exact path="/" element={<Home />}/>
-        </Routes>
+        <MainRoutes />
       </Router>
     </>
   )
