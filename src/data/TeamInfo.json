@@ -1,0 +1,89 @@
+[
+    {
+        "list": "50",
+        "cover": "/assets/images/customer/team-1.jpg",
+        "address": "Liverpool, Canada",
+        "name": "Sargam S. Singh",
+        "icon": [
+          {
+            "facebook": "fa-brands fa-facebook-f", 
+            "linkedin": "fa-brands fa-linkedin", 
+            "twitter": "fa-brands fa-twitter", 
+            "instagram": "< fa-brands fa-instagram"
+          }
+        ]
+      },
+      {
+        "list": "70",
+        "cover": "/assets/images/customer/team-2.jpg",
+        "address": "Montreal, Canada",
+        "name": "Harijeet M. Siller",
+        "icon": [
+          {
+            "facebook": "fa-brands fa-facebook-f", 
+            "linkedin": "fa-brands fa-linkedin", 
+            "twitter": "fa-brands fa-twitter", 
+            "instagram": "< fa-brands fa-instagram"
+          }
+        ]
+      },
+      {
+        "list": "80",
+        "cover": "/assets/images/customer/team-3.jpg",
+        "address": "Denever, USA",
+        "name": "Anna K. Young",
+        "icon": [
+          {
+            "facebook": "fa-brands fa-facebook-f", 
+            "linkedin": "fa-brands fa-linkedin", 
+            "twitter": "fa-brands fa-twitter", 
+            "instagram": "< fa-brands fa-instagram"
+          }
+        ]
+
+      },
+      {
+        "list": "51",
+        "cover": "/assets/images/customer/team-4.jpg",
+        "address": "2272 Briarwood Drive",
+        "name": "Michael P. Grimaldo",
+        "icon": [
+          {
+            "facebook": "fa-brands fa-facebook-f", 
+            "linkedin": "fa-brands fa-linkedin", 
+            "twitter": "fa-brands fa-twitter", 
+            "instagram": "< fa-brands fa-instagram"
+          }
+        ]
+      },
+      {
+        "list": "42",
+        "cover": "/assets/images/customer/team-5.jpg",
+        "address": "2272 Briarwood Drive",
+        "name": "Michael P. Grimaldo",
+        "icon": [
+          {
+            "facebook": "fa-brands fa-facebook-f", 
+            "linkedin": "fa-brands fa-linkedin", 
+            "twitter": "fa-brands fa-twitter", 
+            "instagram": "< fa-brands fa-instagram"
+          }
+        ]
+      },
+      {
+        "list": "38",
+        "cover": "/assets/images/customer/team-5.jpg",
+        "address": "Montreal, USA",
+        "name": "Adam K. Jollio",
+        "icon": [
+          {
+            "facebook": "fa-brands fa-facebook-f", 
+            "linkedin": "fa-brands fa-linkedin", 
+            "twitter": "fa-brands fa-twitter", 
+            "instagram": "< fa-brands fa-instagram"
+          }
+        ]
+      }
+    ]
+
+
