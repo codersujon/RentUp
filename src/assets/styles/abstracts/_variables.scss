@@ -1,7 +1,5 @@
 /* FONT FAMILY */
-$poppins: 'Poppins',
-sans-serif;
-
+$poppins: 'Poppins', sans-serif;
 
 /* COLORS*/
 $white: #fff;
@@ -10,16 +8,15 @@ $grey: #808080;
 $bodyText: #72809d;
 $primaryColor: #27ae60;
 $secondryColor:#2d3954;
-$labelColor: #2d3954;
-
+$iconColor: #bec7d8;
 
 /* BACKGROUND COLOR */
 $bg-primary: #f7f9fc;
 
-
 /* BORDER */
 $border: 1px solid rgba(128, 128, 128, 0.2);
-
+$border2: 1px solid #efe8f3;
 
 /* BOX-SHADOW */
 $boxShadow: 0 5px 30px rgb(0 24 84/ 10%);
+$boxShadow2: 0 0 20px 0 rgb(112 121 138/ 18%);
