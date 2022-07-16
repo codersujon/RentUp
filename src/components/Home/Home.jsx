@@ -4,6 +4,7 @@ import Featured from './../Featured/Featured';
 import Recent from '../Recent/Recent';
 import Awards from '../Awards/Awards';
 import Location from '../Location/Location';
+import Team from '../Team/Team';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
        <Recent />
        <Awards />
        <Location />
+       <Team />
     </>
   )
 }
