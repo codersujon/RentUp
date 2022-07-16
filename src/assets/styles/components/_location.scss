@@ -1,0 +1,55 @@
+.location {
+    &__content {}
+
+    &__box {
+        position: relative;
+        border-radius: 5px;
+
+        & img {
+            border-radius: 5px;
+        }
+    }
+
+    &__overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 250px;
+        color: $white;
+        z-index: 2222;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 340px;
+            height: 210px;
+            background: rgb(15 28 47/ 30%);
+            z-index: -1;
+            margin: 20px;
+            border-radius: 5px;
+
+            @media (max-width: 768px) {
+                width: 280px;
+                height: 170px;
+            }
+        }
+
+        & h5 {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        & label {
+            color: $white;
+            margin-right: 20px;
+            opacity: 0.8;
+        }
+    }
+}

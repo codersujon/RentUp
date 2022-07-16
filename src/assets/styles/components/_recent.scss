@@ -7,13 +7,6 @@
 .recentCard {
     box-shadow: $boxShadow2;
 
-    &__img {
-        & img {
-            width: 100%;
-            height: 100%;
-        }
-    }
-
     &__text {
         padding: 30px;
     }

@@ -3,6 +3,7 @@ import Hero from './Hero/Hero';
 import Featured from './../Featured/Featured';
 import Recent from '../Recent/Recent';
 import Awards from '../Awards/Awards';
+import Location from '../Location/Location';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
        <Featured />
        <Recent />
        <Awards />
+       <Location />
     </>
   )
 }
