@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionTitle from '../SectionTitle/SectionTitle';
+import RecentCard from './RecentCard';
 
 const Recent = () => {
   return (
@@ -10,6 +11,7 @@ const Recent = () => {
                     title="Recent Property Listed" 
                     subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
                 />
+                <RecentCard />
             </div>
         </section>
     </>
@@ -17,3 +19,4 @@ const Recent = () => {
 }
 
 export default Recent
+
