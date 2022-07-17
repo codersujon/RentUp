@@ -1,0 +1,86 @@
+[
+    {
+      "plan": "Basic",
+      "price": "29",
+      "ptext": "per user, per month",
+      "list": [
+        {
+          "icon": "fa-solid fa-check",
+          "text": "99.5% Uptime Guarantee"
+        },
+        {
+          "icon": "fa-solid fa-check",
+          "text": "120GB CDN Bandwidth"
+        },
+        {
+          "icon": "fa-solid fa-check",
+          "text": "5GB Cloud Storage"
+        },
+        { "change": "color", 
+          "icon": "fa-solid fa-x", 
+          "text": "Personal Help Support" 
+        },
+        { "change": "color", 
+          "icon": "fa-solid fa-x", 
+          "text": "Enterprise SLA" 
+        }
+      ]
+    },
+    {
+      "best": "Best Value",
+      "plan": "Standard",
+      "price": "49",
+      "ptext": "per user, per month",
+      "list": [
+        {
+          "icon": "fa-solid fa-check",
+          "text": "99.5% Uptime Guarantee"
+        },
+        {
+          "icon": "fa-solid fa-check",
+          "text": "150GB CDN Bandwidth"
+        },
+        {
+          "icon": "fa-solid fa-check",
+          "text": "10GB Cloud Storage"
+        },
+        {
+          "icon": "fa-solid fa-check",
+          "text": "Personal Help Support"
+        },
+        { "change": "color", 
+          "icon": "fa-solid fa-x", 
+          "text": "Enterprise SLA" 
+        }
+      ]
+    },
+    {
+      "plan": "Platinum",
+      "price": "79",
+      "ptext": "2 user, per month",
+      "list": [
+        {
+          "icon": "fa-solid fa-check",
+          "text": "100% Uptime Guarantee"
+        },
+        {
+          "icon": "fa-solid fa-check",
+          "text": "200GB CDN Bandwidth"
+        },
+        {
+          "icon": "fa-solid fa-check",
+          "text": "20GB Cloud Storage"
+        },
+        {
+          "icon": "fa-solid fa-check",
+          "text": "Personal Help Support"
+        },
+        { 
+          "icon": "fa-solid fa-check", 
+          "text": "Enterprise SLA" 
+        }
+      ]
+    }
+  ]
+
+

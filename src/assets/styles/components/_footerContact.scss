@@ -1,0 +1,31 @@
+.footerContact {
+    text-align: left;
+    padding: 40px 0;
+
+    & h3 {
+        font-size: 40px;
+        color: $white;
+
+        @media(max-width: 768px){
+            font-size: 25px;
+        }
+    }
+
+    & .text{
+        @media(max-width: 768px){
+            text-align: center;
+           margin-bottom: 30px;
+        }
+    }
+
+    & p {
+        color: $white;
+    }
+
+    & .send{
+        @media(max-width: 768px){
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

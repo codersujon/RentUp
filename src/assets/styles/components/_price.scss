@@ -1,0 +1,72 @@
+.price {
+    background: $white;
+    text-align: center;
+
+    &__content {
+        @media(max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+
+    &__card {
+
+        box-shadow: $boxShadow2;
+        width: 31.5%;
+        padding: 30px;
+        border-radius: 10px;
+
+        &:nth-child(1),
+        &:nth-child(3) {
+            & .topbtn {
+                display: none;
+            }
+        }
+
+        @media(max-width: 768px) {
+            width: 100%;
+            margin-bottom: 50px;
+            border-radius: 10px;
+        }
+    }
+
+    & button {
+        margin-bottom: 20px;
+    }
+
+    & h3 {
+        font-size: 22px;
+    }
+
+    & h1 {
+        font-size: 60px;
+
+        & span {
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+
+    ul {
+        margin-top: 40px;
+
+        & li {
+            display: flex;
+            margin-bottom: 20px;
+
+            & label {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                border-radius: 50%;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    & .btn5 {
+        width: 100%;
+        border-radius: 50px;
+    }
+
+}

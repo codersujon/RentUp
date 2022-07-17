@@ -1,0 +1,67 @@
+.footer {
+    background-color: $dark;
+    padding: 80px 0;
+    color: $white;
+
+    & .container {
+        display: grid;
+        grid-template-columns: 6fr 2fr 2fr 1fr;
+        grid-gap: 20px;
+
+        @media(max-width: 992px){
+            grid-template-columns: repeat(2, 1fr)
+        }
+
+        @media(max-width: 576px){
+            grid-template-columns: repeat(1, 1fr)
+        }
+        
+    }
+
+    &__widget {
+        & img {
+            width: 150px;
+        }
+
+        & h2,
+        h3 {
+            font-weight: 500;
+        }
+
+        & h3 {
+            margin-bottom: 30px;
+        }
+
+        & p {
+            color: $grey;
+            margin: 20px 0;
+        }
+
+        & ul,
+        a {
+            display: block;
+        }
+
+        & a {
+            color: $grey;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__subscribe {
+        & input {
+            background: $white;
+            padding: 17px;
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+
+    &__copyright {
+        background-color: $dark;
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        padding: 20px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);;
+    }
+}
