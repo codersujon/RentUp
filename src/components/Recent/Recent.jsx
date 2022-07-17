@@ -5,7 +5,7 @@ import RecentCard from './RecentCard';
 const Recent = () => {
   return (
     <>
-        <section className="recent">
+        <section className="recent pt-80 pb-80 text-center">
             <div className="container">
                 <SectionTitle 
                     title="Recent Property Listed" 

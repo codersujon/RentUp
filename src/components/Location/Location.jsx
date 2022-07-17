@@ -5,7 +5,7 @@ import LocationCard from './LocationCard';
 const Location = () => {
   return (
     <>
-    <section className="location">
+    <section className="location pt-80 pb-80 text-center">
         <div className="container">
             <SectionTitle 
                 title="Explore By Location" 

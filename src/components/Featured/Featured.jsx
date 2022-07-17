@@ -6,7 +6,7 @@ import FeaturedInfo from '../../data/FeaturedInfo.json';
 const Featured = () => {
     return (
         <>
-            <section className="featured bg-light">
+            <section className="featured bg-light pt-80 pb-80 text-center">
                 <div className="container">
                     <SectionTitle
                         title="Featured Property Types"

@@ -5,7 +5,7 @@ import TeamCard from './TeamCard';
 const Team = () => {
   return (
     <>
-    <section className="team bg-light">
+    <section className="team bg-light pt-80 pb-80 text-center">
         <div className="container">
             <SectionTitle 
                 title="Our Featured Agents"

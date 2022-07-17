@@ -9,6 +9,7 @@
 
 
  > ****React Feature Usage****
+ - props
  - useState() - toggle nav
  - map() - Looping Same Page
 

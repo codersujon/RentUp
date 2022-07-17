@@ -1,0 +1,42 @@
+.about {
+    & .SectionTitle {
+        margin-bottom: 30px;
+
+        @media (max-width: 768px) {
+            text-align: center;
+        }
+    }
+
+    &__left {
+        & .lead {
+            font-size: 15px;
+            margin-bottom: 20px;
+            padding-right: 30px;
+            color: $grey;
+
+            @media (max-width: 768px) {
+                text-align: center;
+            }
+        }
+
+        & button {
+            @media (max-width: 768px) {
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            margin-bottom: 30px;
+
+        }
+    }
+
+    & .container {
+        @media (max-width: 768px) {
+            flex-direction: column;
+
+        }
+    }
+}

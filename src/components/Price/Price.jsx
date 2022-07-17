@@ -4,7 +4,7 @@ import PriceCard from './PriceCard';
 
 const Price = () => {
     return (
-        <section className="price">
+        <section className="price pt-80 pb-80 text-center">
             <div className="container">
                 <SectionTitle
                     title="Select Your Package"
