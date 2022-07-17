@@ -4,6 +4,7 @@ import Home from '../components/Home/Home';
 import Price from '../components/Price/Price';
 import About from '../components/About/About';
 import Services from '../components/Services/Services';
+import Blog from '../components/Blog/Blog';
 
 const MainRoutes = () => {
     return (
@@ -13,6 +14,7 @@ const MainRoutes = () => {
                 <Route exact path="/home" element={<Home />} />   
                 <Route exact path="/about" element={<About />} />   
                 <Route exact path="/services" element={<Services />} />   
+                <Route exact path="/blog" element={<Blog />} />   
                 <Route exact path="/pricing" element={<Price />} />   
             </Routes>
         </>
