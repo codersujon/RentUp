@@ -8,7 +8,7 @@ const LocationCard = () => {
             LocationInfo.map((LocItem, index)=>{
                 const { name, Villas, Apartments, Offices, cover } = LocItem;
                 return(
-                    <div className="location__box" key="index">
+                    <div className="location__box" key={index}>
                         <img src={cover} alt="Location__Img" />
                         <div className="location__overlay">
                             <h5>{name}</h5>

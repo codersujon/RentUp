@@ -13,9 +13,9 @@ const TeamCard = () => {
                             <div className="team__body">
                                 <div className="team__img">
                                     <img src={cover} alt="Team__Member" />
-                                    <i class="fa-solid fa-circle-check"></i>
+                                    <i className="fa-solid fa-circle-check"></i>
                                 </div>
-                                <i class="fa-solid fa-location-dot"></i> <label>{address}</label>
+                                <i className="fa-solid fa-location-dot"></i> <label>{address}</label>
                                 <h4>{name}</h4>
                                 <ul className="team__socials">
                                     {
@@ -33,10 +33,10 @@ const TeamCard = () => {
                                 </ul>
                                 <div className="team__button flex">
                                     <button>
-                                        <i class="fa-solid fa-envelope"></i> Message
+                                        <i className="fa-solid fa-envelope"></i> Message
                                     </button>
                                     <button className='btn4'>
-                                        <i class="fa-solid fa-phone-alt"></i>
+                                        <i className="fa-solid fa-phone-alt"></i>
                                     </button>
                                 </div>
                             </div>

@@ -20,15 +20,15 @@ const Footer = () => {
                         </div>
                     </div>
                     {
-                        FooterInfo.map(val => {
+                        FooterInfo.map((val, index) => {
                             const { title, text } = val;
                             return (
-                                <div className="footer__widget">
+                                <div className="footer__widget" key={index}>
                                     <h3>{title}</h3>
                                     <ul>
-                                        {text.map(items => {
+                                        {text.map((items, index) => {
                                             return (
-                                                <li>
+                                                <li key={index}>
                                                     <a href="/">
                                                         {items.list}
                                                     </a>

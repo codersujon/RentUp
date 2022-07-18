@@ -22,11 +22,11 @@ const RecentCard = () => {
                                             {category}
                                         </span>
 
-                                        <i class="fa-solid fa-heart"></i>
+                                        <i className="fa-solid fa-heart"></i>
                                     </div>
                                     <h4>{name}</h4>
                                     <p>
-                                        <i class="fa-solid fa-location-dot"></i> {location}
+                                        <i className="fa-solid fa-location-dot"></i> {location}
                                     </p>
                                 </div>
                                 <div className="recentCard__btn flex">

@@ -27,7 +27,7 @@ const Hero = () => {
                         <div className="hero__box">
                             <h4>Advance Filter</h4>
                             <button className="btn">
-                                <i class="fa-solid fa-search"></i>
+                                <i className="fa-solid fa-search"></i>
                             </button>
                         </div>
                     </form>

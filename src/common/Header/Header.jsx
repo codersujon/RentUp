@@ -32,11 +32,11 @@ const Header = () => {
                             <span>2</span> My List
                         </h4>
                         <button className="btn">
-                            <i class="fa-solid fa-arrow-right-from-bracket"></i> Sign In
+                            <i className="fa-solid fa-arrow-right-from-bracket"></i> Sign In
                         </button>
                     </div>
                     <div className="toggle" onClick={handleClick}>
-                        {navList ? <i class="fa-solid fa-times"></i> : <i class="fa-solid fa-bars"></i>}
+                        {navList ? <i className="fa-solid fa-times"></i> : <i className="fa-solid fa-bars"></i>}
                     </div>
                 </div>
             </header>
