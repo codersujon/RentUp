@@ -1,6 +1,6 @@
 import React from 'react';
 import Breadcrumb from '../../common/Breadcrumb/Breadcrumb';
-import RecentCard from '../Recent/RecentCard';
+import RecentCard from '../../components/Home/Recent/RecentCard';
 
 const Blog = () => {
   return (

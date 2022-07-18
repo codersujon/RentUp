@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionTitle from '../SectionTitle/SectionTitle';
+import SectionTitle from '../../../common/SectionTitle/SectionTitle';
 import TeamCard from './TeamCard';
 
 const Team = () => {

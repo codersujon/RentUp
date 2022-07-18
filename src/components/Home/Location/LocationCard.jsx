@@ -1,5 +1,5 @@
 import React from 'react';
-import LocationInfo from '../../data/LocationInfo.json';
+import LocationInfo from '../../../data/LocationInfo.json';
 
 const LocationCard = () => {
   return (

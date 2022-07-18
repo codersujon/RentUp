@@ -1,5 +1,5 @@
 import React from 'react';
-import AwardInfo from '../../data/AwardInfo.json';
+import AwardInfo from '../../../data/AwardInfo.json';
 
 const AwardCard = () => {
     return (

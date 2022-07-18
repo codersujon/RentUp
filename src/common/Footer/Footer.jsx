@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterContact from '../../components/FooterContact/FooterContact';
+import FooterContact from '../FooterContact/FooterContact';
 import FooterInfo from '../../data/FooterInfo.json';
 
 const Footer = () => {

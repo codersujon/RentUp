@@ -1,5 +1,5 @@
 import React from "react";
-import RecentInfo from '../../data/RecentInfo.json';
+import RecentInfo from '../../../data/RecentInfo.json';
 
 const RecentCard = () => {
     return (

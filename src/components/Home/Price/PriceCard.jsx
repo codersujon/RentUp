@@ -1,5 +1,5 @@
 import React from 'react';
-import PriceInfo from '../../data/PriceInfo.json';
+import PriceInfo from '../../../data/PriceInfo.json';
 
 const PriceCard = () => {
   return (

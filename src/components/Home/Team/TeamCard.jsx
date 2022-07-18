@@ -1,5 +1,5 @@
 import React from 'react';
-import TeamInfo from '../../data/TeamInfo.json';
+import TeamInfo from '../../../data/TeamInfo.json';
 
 const TeamCard = () => {
     return (

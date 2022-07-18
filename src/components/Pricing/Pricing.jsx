@@ -1,6 +1,6 @@
 import React from 'react';
 import Breadcrumb from './../../common/Breadcrumb/Breadcrumb';
-import PriceCard from './../Price/PriceCard';
+import PriceCard from '../../components/Home/Price/PriceCard';
 
 
 const Pricing = () => {
