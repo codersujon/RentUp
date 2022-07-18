@@ -4,9 +4,9 @@ import PriceCard from '../../components/Home/Price/PriceCard';
 
 
 const Pricing = () => {
-  return (
-    <>
-        <section className="pricing">
+    return (
+        <>
+            <section className="pricing">
                 <Breadcrumb
                     name="30 days money back guarantee"
                     title="No Extra Fees. Friendly Support"
@@ -17,9 +17,9 @@ const Pricing = () => {
                         <PriceCard />
                     </div>
                 </div>
-        </section>
-    </>
-  )
+            </section>
+        </>
+    )
 }
 
 export default Pricing;

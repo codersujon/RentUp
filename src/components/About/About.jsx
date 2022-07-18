@@ -1,6 +1,6 @@
 import React from 'react';
 import Breadcrumb from '../../common/Breadcrumb/Breadcrumb';
-import SectionTitle from '../SectionTitle/SectionTitle';
+import SectionTitle from '../../common/SectionTitle/SectionTitle';
 
 const About = () => {
     return (
