@@ -8,7 +8,8 @@
         grid-gap: 20px;
 
         @media(max-width: 992px) {
-            grid-template-columns: repeat(2, 1fr)
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 100px;
         }
 
         @media(max-width: 576px) {

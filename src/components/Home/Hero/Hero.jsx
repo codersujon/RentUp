@@ -11,7 +11,7 @@ const Hero = () => {
                         <p>Find new & featured property located in your local city.</p>
                     </div>
 
-                    <form className="flex">
+                    <form>
                         <div className="hero__box">
                             <span>City/Street</span>
                             <input type="text" placeholder="location" />

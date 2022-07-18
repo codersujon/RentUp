@@ -41,12 +41,14 @@
             margin-bottom: 20px;
             height: 50px;
             padding: 10px 15px;
+
             &:focus,
-            &::placeholder{
+            &::placeholder {
                 font-size: 16px;
             }
         }
-        & textarea{
+
+        & textarea {
             height: 150px;
         }
 
