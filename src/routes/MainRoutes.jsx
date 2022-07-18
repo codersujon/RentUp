@@ -5,6 +5,7 @@ import About from '../components/About/About';
 import Services from '../components/Services/Services';
 import Blog from '../components/Blog/Blog';
 import Pricing from '../components/Pricing/Pricing';
+import Contact from './../components/Contact/Contact';
 
 const MainRoutes = () => {
     return (
@@ -16,6 +17,7 @@ const MainRoutes = () => {
                 <Route exact path="/services" element={<Services />} />   
                 <Route exact path="/blog" element={<Blog />} />   
                 <Route exact path="/pricing" element={<Pricing />} />   
+                <Route exact path="/contact" element={<Contact />} />   
             </Routes>
         </>
     )
