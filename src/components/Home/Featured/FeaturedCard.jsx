@@ -6,10 +6,10 @@ const FeaturedCard = ({ cover, title, label }) => {
             <div className="featured__Cards grid-5">
                 {
                     FeaturedInfo.map(items => {
-                        const {cover, name, total } = items;
+                        const { cover, name, total } = items;
                         return (
-                            <div className="featured__box"  key={items.id}>
-                                <img src={cover} alt="" />
+                            <div className="featured__box" key={items.id}>
+                                <img src={cover} />
                                 <h4>{name}</h4>
                                 <label>{total}</label>
                             </div>
@@ -18,8 +18,6 @@ const FeaturedCard = ({ cover, title, label }) => {
                 }
             </div>
 
-
-           
         </>
     )
 }
