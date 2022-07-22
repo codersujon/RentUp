@@ -9,7 +9,7 @@ const FeaturedCard = ({ cover, title, label }) => {
                         const {cover, name, total } = items;
                         return (
                             <div className="featured__box"  key={items.id}>
-                                <img src={cover} alt="Featured Image" />
+                                <img src={cover} alt="" />
                                 <h4>{name}</h4>
                                 <label>{total}</label>
                             </div>

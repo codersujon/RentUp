@@ -12,7 +12,7 @@ const TeamCard = () => {
                             <button className='btn3'>{list} Listings</button>
                             <div className="team__body">
                                 <div className="team__img">
-                                    <img src={cover} alt="Team__Member" />
+                                    <img src={cover} alt="" />
                                     <i className="fa-solid fa-circle-check"></i>
                                 </div>
                                 <i className="fa-solid fa-location-dot"></i> <label>{address}</label>

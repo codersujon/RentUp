@@ -8,7 +8,7 @@ const Breadcrumb = ({name, title, cover}) => {
                 <span>{name}</span>
                 <h1>{title}</h1>
             </div>
-            <img src={cover} alt="Section__Cover__Img" />
+            <img src={cover} alt="" />
         </section> 
     </>
   )

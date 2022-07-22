@@ -24,7 +24,7 @@ const About = () => {
                         <button className='btn-round'>More About Us</button>
                     </div>
                     <div className="about__right">
-                        <img src="assets/images/about/immio.jpg" alt="About__Immio__img" />
+                        <img src="assets/images/about/immio.jpg" alt="" />
                     </div>
                 </div>
             </section>

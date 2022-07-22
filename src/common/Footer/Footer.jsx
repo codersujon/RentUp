@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="footer__widget">
                         <div className="logo">
-                            <img src="assets/images/logo-light.png" alt="Footer__logo" />
+                            <img src="assets/images/logo-light.png" alt="" />
                         </div>
                         <h2>Do You Need Help With Anything?</h2>
                         <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>

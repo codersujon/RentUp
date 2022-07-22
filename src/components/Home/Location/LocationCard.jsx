@@ -9,7 +9,7 @@ const LocationCard = () => {
                 const { name, Villas, Apartments, Offices, cover } = LocItem;
                 return(
                     <div className="location__box" key={index}>
-                        <img src={cover} alt="Location__Img" />
+                        <img src={cover} alt="" />
                         <div className="location__overlay">
                             <h5>{name}</h5>
                             <p>
