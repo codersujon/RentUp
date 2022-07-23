@@ -1,6 +1,6 @@
 # Real Estate App
 
-**[Live Demo](https://positiveworldbd.github.io/RentUp/)**
+**[Live Demo](https://main--rentup-cs.netlify.app/)**
 
 
 > ****Dependencies Packages****
